@@ -20,7 +20,7 @@
                 ],
                 "command": [
                      "--config=/etc/ecs/ecs-cloudwatch.yaml" 
-                ],
+                ]
             }
         ],
         "requiresCompatibilities": [
