@@ -1,7 +1,7 @@
  {
         "family": "hadiya",
         "networkMode": "awsvpc",
-        "taskRoleArn": "arn:aws:iam::318988877498:role/ecs-task-execution-role", 
+        "executionRoleArn": "arn:aws:iam::318988877498:role/ecs-task-execution-role", 
         "containerDefinitions": [
             {
                 "name": "hadiya",
