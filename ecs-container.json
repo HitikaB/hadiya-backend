@@ -6,7 +6,6 @@
             "memory": 1024,
             "portMappings": [
                 {
-                    "name": "hadiya",
                     "containerPort": 3000,
                     "hostPort": 3000,
                     "protocol": "tcp"
