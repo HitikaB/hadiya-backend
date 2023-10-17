@@ -1,5 +1,5 @@
  {
-        "family": "hadiya",
+        "family": "hadiya-project",
         "networkMode": "awsvpc",
         "executionRoleArn": "arn:aws:iam::318988877498:role/ecs-task-execution-role", 
         "containerDefinitions": [
