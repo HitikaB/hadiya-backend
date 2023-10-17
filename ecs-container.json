@@ -1,4 +1,10 @@
-[
+{
+  "family": "hadiya-project",
+  "requiresCompatibilities": [
+    "EC2",
+    "FARGATE"
+  ],
+  "containerDefinitions": [
     {
       "name": "hadiya",
       "image": "318988877498.dkr.ecr.ap-south-1.amazonaws.com/hadiya-backend-hitika:latest",
@@ -15,10 +21,10 @@
         "logDriver": "awslogs",
         "options": {
           "awslogs-group": "/ecs/hadiya-project",
-      "awslogs-region": "ap-south-1",
-      "awslogs-stream-prefix": "ecs"
+          "awslogs-region": "ap-south-1",
+          "awslogs-stream-prefix": "ecs"
         }
-      },
-      "requiresCompatibilities": [ "EC2", "FARGATE"]
+      }
     }
   ]
+}
